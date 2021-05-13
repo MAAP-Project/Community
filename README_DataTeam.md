@@ -4,7 +4,7 @@ This is a short Readme specific to Data Team (MSFC) tasks, and usage of Zenhub.
 
 ## Zenhub
 
-To make full use of Zenhub you need to install the browser extension. This will allow you to the Workspaces under the Zenhub tab in each repo.
+To make full use of Zenhub you need to install the browser extension ([Chrome or Firefox](https://help.zenhub.com/support/solutions/articles/43000507578-installing-the-zenhub-extension-for-cloud)). This will allow you to the Workspaces under the Zenhub tab in each repo.
 
 ## Issues
 
@@ -14,4 +14,4 @@ If the issue is general to the platform, you aren't sure which repo it belongs i
 
 ## Data Requests
 
-End users for now will be encouraged to file tickets in the [Zenhub](https://github.com/MAAP-Project/ZenHub) repo. This includes requests for upgrades to, or new data. For data requests, users should select the data request template.
+End users for now will be encouraged to file tickets in the [Zenhub](https://github.com/MAAP-Project/ZenHub/issues/new?template=data_request.md) repo. This includes requests for updates to existing data, or new data. For data requests, users should select the [data request template](https://github.com/MAAP-Project/ZenHub/issues/new?template=data_request.md).

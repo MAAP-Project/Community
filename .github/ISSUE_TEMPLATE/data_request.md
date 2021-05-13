@@ -8,31 +8,31 @@ assignees: ''
 ---
 
 **Dataset Name**
-What is the name of the data requested.
+*What is the name of the data requested?*
 
 **Dataset Description**
-Short description of the data.
+*Please provide a short description of the data.*
 
 **Requestor name/affiliation**
-Your name and research affiliation.
+*What is your name and research affiliation?*
 
 **Platform/Instrument/Method**
-What Sensor, and/or platform was used to collect data.
+*What Sensor, and/or platform used to collect data?*
 
 **URL or DOI to dataset description**
 
 **URL to download or access data**
 
 **Data License**
-Is the data openly available?
+*Is the data openly available?*
 
 **Intended science use case**
-Please describe how you intend to use the data, or the expected relevance to MAAP users.
+*Please describe how you intend to use the data, or the expected relevance to MAAP users.*
 
 ## Optional
 
 **Approximate size of data**
-Estimate of how many GB/TB/PB is the data?
+*Please estimate of how many GB/TB/PB the data is.*
 
 **Additional information**
-Any additional info you think is relevant, possibly including spatial or temporal subset if applicable.
+*Any additional info you think is relevant, possibly including spatial or temporal subset if applicable.*
