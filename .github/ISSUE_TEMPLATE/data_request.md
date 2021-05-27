@@ -1,9 +1,9 @@
 ---
 name: Data Request
 about: Suggest a data set for ingestion in the platform
-title: ''
-labels: 'MSFC'
-assignees: ''
+title: '[Data]:'
+labels: MSFC
+assignees: kbugbee1, kaulfusa
 
 ---
 
@@ -24,7 +24,7 @@ assignees: ''
 **URL to download or access data**
 
 **Data License**
-*Is the data openly available?*
+*Is the data openly available? Please list the license if you know it (e.g. CC-BY)*
 
 **Intended science use case**
 *Please describe how you intend to use the data, or the expected relevance to MAAP users.*
