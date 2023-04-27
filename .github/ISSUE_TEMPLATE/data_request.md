@@ -3,7 +3,7 @@ name: Data Request
 about: Suggest a data set for ingestion in the platform
 title: '[Data]:'
 labels: MSFC
-assignees: kbugbee1, kaulfusa
+assignees: freitagb, wildintellect
 
 ---
 
