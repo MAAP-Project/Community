@@ -31,19 +31,29 @@ assignees: freitagb, wildintellect
 
 ## Spatio-Temporal Asset Catalog (STAC)
 
-This collection will be published as a Spatio-Temporal Asset Catalog (STAC) Collection. You can read the complete STAC collection spec here: https://github.com/radiantearth/stac-spec/blob/master/collection-spec/collection-spec.md.
+This collection will be published as a Spatio-Temporal Asset Catalog (STAC) Collection. You can read the complete STAC collection spec here: (https://github.com/radiantearth/stac-spec/blob/master/collection-spec/collection-spec.md).
 
-The minimum set of fields required to submit a STAC collection are:
+If you need help with any of the fields below, please let us know.
 
 **id:** Identifier for the Collection that is unique across the provider. This is typically an abbreviated and hyphenated or camel-cased version of the dataset name, For example `gedi_l2a_v002` for "GEDI L2A Elevation and Height Metrics Data Global Footprint Level V002".
 
+_We can create an id from the Dataset Name from the first section if not otherwise indicated._
+
 **title:** A short descriptive one-line title for the collection. Technically, this is not requried by the STAC Spec but it is used by the STAC browser.
+
+_We will use the Dataset Name from the first section if not otherwise indicated._
 
 **description:** Detailed multi-line description to fully explain the collection.
 
+_We will reuse the Dataset Description from the first section if not otherwise indicated._
+
 **spatial extent:** A bounding box for the potential spatial extents covered by the collection. Read more in the [spatial-extent-object section of the spec](https://github.com/radiantearth/stac-spec/blob/master/collection-spec/collection-spec.md#spatial-extent-object).
 
-**temporal extent:** Describes the temporal extents of the collection as an interval. Read more in the [temporal-extent-object section of the spec](v).
+_Please provide the spatial extent as a bounding box._
+
+**temporal extent:** Describes the temporal extents of the collection as an interval. Read more in the [temporal-extent-object section of the spec](https://github.com/radiantearth/stac-spec/blob/master/collection-spec/collection-spec.md#temporal-extent-object).
+
+_Please provide the temporal extent as an interval. If the dataset has a single date time or is currently ongoing, a single date is appropriate._
 
 **links:** A list of references to other documents. There must be a at least one link and we highly recommend and may require in the future link to documentation which includes details about how to access and open the data.
 
