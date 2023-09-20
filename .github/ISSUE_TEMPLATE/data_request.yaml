@@ -1,5 +1,5 @@
 name: Data Request
-about: Suggest a data set for ingestion in the platform
+description: Suggest a data set for ingestion in the platform
 title: '[Data]:'
 labels: MSFC
 assignees: freitagb, wildintellect
@@ -15,7 +15,7 @@ body:
       label: Dataset Name
       description: What is the name of the data requested?
       placeholder:
-    validatations:
+    validations:
       required: true
   - type: input
     id: description
@@ -31,7 +31,7 @@ body:
       label: Requestor Name/Affiliation
       description: What is your name and research affiliation?
       placeholder:
-    validatations:
+    validations:
       required: true
   - type: input
     id: method
@@ -39,7 +39,7 @@ body:
       label: Platform/Method/Sensor
       description: What sensor and/or platform is used to collect the data?
       placeholder:
-    validatations:
+    validations:
       required: true
   - type: input
     id: doi
@@ -47,7 +47,7 @@ body:
       label: URL or DOI to Dataset Description 
       description: 
       placeholder:
-    validatations:
+    validations:
       required: true 
   - type: input
     id: download
@@ -55,7 +55,7 @@ body:
       label: URL to Download or Access the Data
       description: 
       placeholder:
-    validatations:
+    validations:
       required: true
   - type: input
     id: license
@@ -63,7 +63,7 @@ body:
       label: Data License
       description: Is this data openly available? Please list the license if you know it.
       placeholder: e.g. CC-BY
-    validatations:
+    validations:
       required: true
   - type: textarea
     id: use
@@ -71,7 +71,7 @@ body:
       label: use case 
       description: Please describe how you intend to use the data, or the expected relevance to MAAP users.
       placeholder:
-    validatations:
+    validations:
       required: true
   - type: input
     id: size
@@ -79,7 +79,7 @@ body:
       label: Approximate Size of the Data
       description: Please provide an estimate of how many GB/TB/PT the data is.
       placeholder:
-    validatations:
+    validations:
       required: false
   - type: textarea
     id: info
@@ -87,5 +87,5 @@ body:
       label: Additional Information
       description: Any additional info you think is relevant, possibly including spatial or temporal subset if applicable.
       placeholder:
-    validatations:
+    validations:
       required: false
