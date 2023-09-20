@@ -6,11 +6,25 @@ labels: MSFC
 assignees: freitagb, wildintellect
 
 ---
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to make sure that you are providing enough information about the data.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: Who should we be giving updates to and asking for any additional information from?
+      placeholder: ex. email@nasa.gov
+    validations:
+      required: true
+
 title: Data Request Form
 
 form: 
     name: Data Request Form
-
     fields:
         - name: name
             label: Dataset Name
