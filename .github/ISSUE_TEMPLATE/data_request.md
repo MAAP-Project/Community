@@ -6,9 +6,7 @@ labels: MSFC
 assignees: freitagb, wildintellect
 
 ---
-
 title: Data Request Form
-
 form: 
     name: Data Request Form
     fields:
