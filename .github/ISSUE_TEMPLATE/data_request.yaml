@@ -68,7 +68,7 @@ body:
   - type: textarea
     id: use
     attributes:
-      label: use case 
+      label: Intended Science Use Case 
       description: Please describe how you intend to use the data, or the expected relevance to MAAP users.
       placeholder:
     validations:
