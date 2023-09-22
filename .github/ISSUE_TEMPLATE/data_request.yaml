@@ -1,0 +1,99 @@
+name: Data Request
+description: Suggest a data set for ingestion in the platform
+title: '[Data]:'
+labels: MSFC
+assignees: freitagb, wildintellect
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use this form to make sure you are providing enough information about the data.
+  - type: input
+    id: name
+    attributes:
+      label: Dataset Name
+      description: What is the name of the data requested?
+      placeholder:
+    validations:
+      required: true
+  - type: input
+    id: description
+    attributes:
+      label: Dataset Description     
+      description: Please provide a short description of the data.
+      placeholder:
+    validations:
+      required: true
+  - type: input
+    id: requestor
+    attributes:
+      label: Requestor Name/Affiliation
+      description: What is your name and research affiliation?
+      placeholder:
+    validations:
+      required: true
+  - type: input
+    id: method
+    attributes:
+      label: Platform/Method/Sensor
+      description: What sensor and/or platform is used to collect the data?
+      placeholder:
+    validations:
+      required: true
+  - type: input
+    id: doi
+    attributes:
+      label: URL or DOI to Dataset Description 
+      description: 
+      placeholder:
+    validations:
+      required: true 
+  - type: input
+    id: download
+    attributes:
+      label: URL to Download or Access the Data
+      description: 
+      placeholder:
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: Data License
+      description: Is this data openly available? Please list the license if you know it.
+      placeholder: e.g. CC-BY
+    validations:
+      required: true
+  - type: textarea
+    id: use
+    attributes:
+      label: Intended Science Use Case 
+      description: Please describe how you intend to use the data, or the expected relevance to MAAP users.
+      placeholder:
+    validations:
+      required: true
+  - type: input
+    id: size
+    attributes:
+      label: Approximate Size of the Data
+      description: Please provide an estimate of how many GB/TB/PT the data is.
+      placeholder:
+    validations:
+      required: false
+  - type: input
+    id: date
+    attributes:
+      label: Date Needed By
+      description: Please provide a date you would like the data to be available by.
+      placeholder: mm/dd/yy
+    validations:
+      required: false
+  - type: textarea
+    id: info
+    attributes:
+      label: Additional Information
+      description: Any additional info you think is relevant, possibly including spatial or temporal subset if applicable.
+      placeholder:
+    validations:
+      required: false
