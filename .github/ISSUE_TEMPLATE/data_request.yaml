@@ -81,6 +81,14 @@ body:
       placeholder:
     validations:
       required: false
+  - type: input
+    id: date
+    attributes:
+      label: Date Needed By
+      description: Please provide a date you would like the data to be available by.
+      placeholder: mm/dd/yy
+    validations:
+      required: false
   - type: textarea
     id: info
     attributes:
