@@ -14,4 +14,4 @@ If the issue is general to the platform, you aren't sure which repo it belongs i
 
 ## Data Requests
 
-End users for now will be encouraged to file tickets in the [Zenhub](https://github.com/MAAP-Project/ZenHub/issues/new?template=data_request.md) repo. This includes requests for updates to existing data, or new data. For data requests, users should select the [data request template](https://github.com/MAAP-Project/ZenHub/issues/new?template=data_request.md).
+End users for now will be encouraged to file tickets in the [Zenhub](https://github.com/MAAP-Project/ZenHub/issues/new?template=data_request.md) repo. This includes requests for updates to existing data, or new data. For data requests, users should select the [data request template](https://github.com/MAAP-Project/ZenHub/issues/new?template=data_request.yaml).
