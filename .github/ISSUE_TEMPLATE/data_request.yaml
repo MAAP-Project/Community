@@ -77,7 +77,7 @@ body:
     id: size
     attributes:
       label: Approximate Size of the Data
-      description: Please provide an estimate of how many GB/TB/PT the data is.
+      description: Please provide an estimate of how many GB/TB/PB the data is.
       placeholder:
     validations:
       required: false
