@@ -17,7 +17,7 @@ body:
       placeholder:
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: description
     attributes:
       label: Dataset Description     
@@ -33,7 +33,7 @@ body:
       placeholder:
     validations:
       required: true
-  - type: input
+  - type: textarea
     id: method
     attributes:
       label: Platform/Method/Sensor
@@ -73,6 +73,14 @@ body:
       placeholder:
     validations:
       required: true
+  - type: input
+    id: format
+    attributes:
+      label: Format of the Data
+      description: What format is this data stored in ? e.g. netCDF4, HDF5, GeoTIFF, Cloud Optimized GeoTIFF, Zarr, etc.
+      placeholder:
+    validations:
+      required: false
   - type: input
     id: size
     attributes:
